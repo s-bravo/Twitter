@@ -1,5 +1,5 @@
 # Configurar cada N periodo con CronR a través de Rstudio Server  
-# La librerái 
+ 
 
 
 #Librerías
@@ -18,14 +18,14 @@
 
 #Busquedas
 	search1 = twitteR::searchTwitter('BUSQUEDA 1', #Busqueda 1
-										n = 1e4,  
-										retryOnRateLimit = 200)  
+					n = 1e4,  
+					retryOnRateLimit = 200)  
 	search2 = twitteR::searchTwitter('BUSQUEDA 2', #Busqueda 2
-										n = 1e4,  
-										retryOnRateLimit = 200)  
+					n = 1e4,  
+					retryOnRateLimit = 200)  
 	search3 = twitteR::searchTwitter('BUSQUEDA 3', #Busqueda 3
-										n = 1e4,  
-										retryOnRateLimit = 200)  
+					n = 1e4,  
+					retryOnRateLimit = 200)  
 
 # Estructuración Data 
 	Data1 = twitteR::twListToDF(search1)
